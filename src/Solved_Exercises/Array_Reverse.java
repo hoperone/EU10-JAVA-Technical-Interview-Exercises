@@ -1,5 +1,7 @@
 package Solved_Exercises;
 
+import java.util.Arrays;
+
 public class Array_Reverse {
 
     public static void reverseArray(int[] arr) {
@@ -19,6 +21,7 @@ public class Array_Reverse {
             // move the right pointer to the left
             right--;
         }
+        System.out.println("Arrays.toString(arr) = " + Arrays.toString(arr));
     }
 
 }
